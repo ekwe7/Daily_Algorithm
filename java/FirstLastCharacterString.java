@@ -1,3 +1,5 @@
+//first and last character of a given string
+
 import java.util.Scanner;
 
 public class FirstLastCharacterString{
