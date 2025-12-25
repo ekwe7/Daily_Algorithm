@@ -4,11 +4,11 @@ public class RemoveCharacterDuplicate {
             String result = "";
 
             for (int index = 0; index< str.length(); index++) {
-                int j = 0;
-                while (j < index && str.charAt(j) != str.charAt(index)) {
-                    j++;
+                int count = 0;
+                while (count < index && str.charAt(count) != str.charAt(index)) {
+                    count++;
                 }
-                if (j == index) {
+                if (count == index) {
                     result += str.charAt(index);
                 }
 
