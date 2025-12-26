@@ -12,8 +12,8 @@ System.out.print("ENter number2: ");
 int num2 = scanner.nextInt();
 
 
-if(num1 >= num2 ? "pass" : "failed");
-
-
+//if(num1 >= num2 ? "pass" : "failed");
+//
+//
 	}
 }

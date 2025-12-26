@@ -19,8 +19,8 @@ for(int index = usedELement; index > 0; index--){
 	arr[index] = arr[index - 1];	
 }
 
-arr[0] = newElement;
-usedElement++;
+//arr[0] = newElement;
+//usedElement++;
 
 for(int i = 0; i < newElement.length; i++){
 	if(usedELement < arr.length){
