@@ -11,7 +11,6 @@ public class TwoPerfectNumber {
         System.out.println(Arrays.toString(result));
     }
 
-
     public int[] twoPerfectNumber(int[] numbers, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int index = 0; index < numbers.length; index++) {
